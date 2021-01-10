@@ -27,10 +27,15 @@ Car::Car(int tp) {
 
 void Car::Print() {
 	std::cout << std::endl;
-	std::cout << "Model...........:" << type   << std::endl;
+	std::cout << "Model...........:" << type << std::endl;
 	std::cout << "Max velocity....:" << velMax << std::endl;
-	std::cout << "Current velocity:" << vel    << std::endl;
+	std::cout << "Current velocity:" << vel << std::endl;
 	std::cout << std::endl;
 }
+
+
+
+
+
 
 

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7447ba6a-334e-49cf-bb73-737c60d935f4}</ProjectGuid>
-    <RootNamespace>OOPCLASSOUTHEADERFILE</RootNamespace>
+    <ProjectGuid>{82c76dda-7cbb-4e40-b393-1805b17e428d}</ProjectGuid>
+    <RootNamespace>OOPCLASSINHEADERFILE</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,8 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Class_Car.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
